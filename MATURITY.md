@@ -4,10 +4,10 @@
 
 | Level | Criterion | Does API Satisfy? | Evidence |
 |-------|-----------|-------------------|----------|
-| Level 0 | Single endpoint for all operations | ❌ No | API uses multiple endpoints such as GET /tasks, POST /tasks, PUT /tasks/:id and DELETE /tasks/:id |
-| Level 1 | Resources identified using URIs | ✅ Yes | Tasks are represented using the /tasks resource and individual tasks using /tasks/:id |
-| Level 2 | Proper HTTP methods and status codes | ✅ Yes | GET, POST, PUT and DELETE are used correctly with status codes 200, 201, 400, 404 and 500 |
-| Level 3 | HATEOAS | ❌ No | Hypermedia links are not included in API responses |
+| Level 0 | Single endpoint for all operations |  No | API uses multiple endpoints such as GET /tasks, POST /tasks, PUT /tasks/:id and DELETE /tasks/:id |
+| Level 1 | Resources identified using URIs | Yes | Tasks are represented using the /tasks resource and individual tasks using /tasks/:id |
+| Level 2 | Proper HTTP methods and status codes |  Yes | GET, POST, PUT and DELETE are used correctly with status codes 200, 201, 400, 404 and 500 |
+| Level 3 | HATEOAS |  No | Hypermedia links are not included in API responses |
 
 ---
 
